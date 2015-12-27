@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+-(void)labelContent:(id)sender;
+-(void)btnTextContent:(UIButton *)sender;
 
 @end
 
