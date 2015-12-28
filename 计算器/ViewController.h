@@ -10,7 +10,8 @@
 
 @interface ViewController : UIViewController
 -(void)labelContent:(id)sender;
--(void)btnTextContent:(UIButton *)sender;
-
+-(void)btnTouchDown:(UIButton *)sender;
+-(void)btnTouchUpInside:(UIButton *)sender;
+-(void)btnTouchUpOutside:(UIButton *)sender;
 @end
 
