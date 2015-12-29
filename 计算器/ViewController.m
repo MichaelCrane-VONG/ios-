@@ -196,7 +196,7 @@
         }
         
          NSLog(@"%g",sum);
-        if (isnumber(sum)==NO)//isnan(sum)||isinf(sum))
+        if (isnan(sum)||isinf(sum))
         {
             label.text=@"不是数字";
         }
